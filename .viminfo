@@ -11,8 +11,12 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:q
+|2,0,1638340887,,"q"
 :wq
-|2,0,1638339326,,"wq"
+|2,0,1638340878,,"wq"
+:1q
+|2,0,1638340825,,"1q"
 
 # Search String History (newest to oldest):
 
@@ -23,16 +27,43 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	t
+|3,1,36,0,1,0,1638340793,"t"
 
 # File marks:
-'0  1  19  ~/DEVOPS/gitassign.txt
-|4,48,1,19,1638339326,"~/DEVOPS/gitassign.txt"
+'0  2  0  ~/file_REMOTE_480.txt
+|4,48,2,0,1638340887,"~/file_REMOTE_480.txt"
+'1  1  19  ~/DEVOPS/gitassign.txt
+|4,49,1,19,1638339326,"~/DEVOPS/gitassign.txt"
 
 # Jumplist (newest first):
+-'  2  0  ~/file_REMOTE_480.txt
+|4,39,2,0,1638340887,"~/file_REMOTE_480.txt"
+-'  1  19  ~/DEVOPS/gitassign.txt
+|4,39,1,19,1638339326,"~/DEVOPS/gitassign.txt"
 -'  1  19  ~/DEVOPS/gitassign.txt
 |4,39,1,19,1638339326,"~/DEVOPS/gitassign.txt"
 
 # History of marks within files (newest to oldest):
+
+> ~/file_REMOTE_480.txt
+	*	1638340882	0
+	"	2	0
+
+> ~/file_BASE_480.txt
+	*	1638340878	0
+	"	1	15
+
+> ~/file.txt
+	*	1638340874	0
+	"	3	15
+	^	3	16
+	.	3	16
+	+	2	0
+	+	1	18
+	+	2	16
+	+	3	16
 
 > ~/DEVOPS/gitassign.txt
 	*	1638339323	0
@@ -40,3 +71,6 @@
 	^	1	20
 	.	1	19
 	+	1	19
+
+> ~/file_LOCAL_480.txt
+	"	1	17
